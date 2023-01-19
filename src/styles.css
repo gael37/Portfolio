@@ -52,8 +52,13 @@ h2 {
   color: rgb(43, 162, 201);
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  text-align: left;
 }
+
+/* .information h2 {
+  margin-left: 350px;
+} */
 
 h3 {}
 
@@ -160,7 +165,7 @@ p {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: flex-start
 }
 
 .information {
@@ -224,6 +229,10 @@ p {
 .button2:active {
   background-color: #A9A9A9;
   color: #808080;
+}
+
+#contact-me h2 {
+  text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -544,5 +553,10 @@ h4 {
 
   .project-link {
     font-size: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
   }
 }
