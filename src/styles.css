@@ -1,0 +1,435 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #1c1d25;
+
+}
+
+section {
+  background-color: white;
+}
+
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 250px 0px 40px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+  gap: 40px;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 70px;
+  color: rgb(43, 162, 201);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h3 {}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: rgb(43, 162, 201);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #296898;
+}
+
+.button:active {
+  background-color: #A9A9A9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 80px;
+  margin: 30px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1c1d25;
+
+  padding: 40px 40px 40px 0;
+  color: white;
+  height: 100vh;
+  margin-left: 40px;
+  /* margin-bottom: 20px; */
+  /* padding-bottom: 20px; */
+}
+
+/* 
+.sub-section p {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+} */
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1c1d25;
+
+  padding: 80px;
+  padding-top: 0;
+  color: white;
+  margin-top: 0;
+  min-height: 100vh;
+}
+
+.skills {
+  background-color: #1c1d25;
+
+  padding: 40px 40px 40px 0;
+  color: white;
+  min-height: 100vh;
+  margin-left: 40px;
+}
+
+.skills ul {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.information {
+  padding: 0;
+  margin: 0;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 80px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 700px;
+  height: 800px;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  margin: 10px;
+}
+
+.project-card p {
+  margin-top: 20px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.button2 {
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(43, 162, 201);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 10px;
+  align-items: center;
+  padding: 2px;
+  margin: 2px;
+  /* padding-top: 5px;
+  margin-top: 5px; */
+}
+
+.button2 a {
+  align-items: center;
+  font-size: 15px;
+
+}
+
+.button2:hover {
+  background-color: #296898;
+}
+
+.button2:active {
+  background-color: #A9A9A9;
+  color: #808080;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-image {
+  margin-top: 0px;
+  width: 400px;
+  /* border-radius: 125px; */
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgb(43, 162, 201);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+.skills p {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.flex-imagep {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.project-card h3 {
+  color: rgb(43, 162, 201);
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+  font-weight: 400;
+}
+
+.project-card h3 span {
+  color: rgb(43, 162, 201);
+  font-size: 15px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 300;
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.paragraph2 {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width:1200px) {
+  /* .hamburger {
+    display: none;
+    border: 2px solid white;
+    background-color: #2b2c38;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+    height: 50px;
+    width: 50px;
+  }
+
+  ul {
+    display: none;
+    background-color: #2b2c38;
+    margin: 0px;
+  }
+
+  ul.show {
+    display: block;
+  } */
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #2b2c38; */
+    margin: 10px 40px 0px 0px;
+    padding-right: 0;
+  }
+
+  nav {
+
+    margin: 0px 50px 0px 40px;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  /* .logo {
+    display: none;
+  } */
+  .hero-text {
+    margin-left: 20px;
+    margin-bottom: 200px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .information img {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .sub-section {
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .headshot-container {
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+
+  .headshot {
+
+    width: 140px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .paragraph2 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .project-image {
+    margin-top: 25px;
+    width: 300px;
+    /* border-radius: 125px; */
+  }
+
+  .project-card h3 {
+    color: rgb(43, 162, 201);
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    font-weight: 400;
+  }
+
+  .project-card h3 span {
+    color: rgb(43, 162, 201);
+    font-size: 10px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+    color: white;
+  }
+}
