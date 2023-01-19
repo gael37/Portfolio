@@ -513,7 +513,7 @@ h4 {
   }
 
   .project-card {
-    height: 1050px;
+    height: 1100px;
   }
 
   .project-image {
@@ -540,5 +540,9 @@ h4 {
 
   .skills img {
     width: 150px;
+  }
+
+  .project-link {
+    font-size: 20px;
   }
 }
