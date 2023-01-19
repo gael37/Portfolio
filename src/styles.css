@@ -26,13 +26,13 @@ footer {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 250px 0px 40px;
+  margin: 0px 520px 0px 40px;
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  width: 500px;
+  width: 200px;
   justify-content: space-around;
   font-size: 30px;
   gap: 40px;
@@ -327,7 +327,9 @@ h4 {
   display: none;
 }
 
-
+#interests {
+  height: 700px;
+}
 
 
 
@@ -380,7 +382,7 @@ h4 {
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 100px;
   }
 
   /* .logo {
@@ -562,5 +564,19 @@ h4 {
 
   .skills h2 {
     margin-bottom: 150px;
+  }
+
+  .hero-text {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  nav {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #interests {
+    height: 700px;
   }
 }
