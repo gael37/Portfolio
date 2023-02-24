@@ -331,7 +331,16 @@ h4 {
   height: 700px;
 }
 
+.project-links-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+h5 {
+  font-size: 1em;
+  text-decoration: underline;
+  font-weight: normal;
+}
 
 
 
