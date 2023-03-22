@@ -23,6 +23,7 @@ function P4() {
           <br></br>
           <h4>Full stack application</h4>
           <h4>React.js - Sass - Django - PostgreSQL</h4>
+          <h5>Note: this project is hosted via Heroku, therefore it can take up to a minute to load ⏳,<br></br> thanks for your patience 🙂</h5>
           <div className="project-single-buttons">
             <button className="button3"><a className="project-link" href="https://gd-spare-sock.herokuapp.com/"
               target="_blank" rel="noopener noreferrer">View website</a>

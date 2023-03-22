@@ -23,12 +23,13 @@ function P4() {
           <br></br>
           <h4>Full stack application</h4>
           <h4>React.js - Sass - Node.js - Express.js - MongoDB</h4>
+          <h5>Note: this project is hosted via Heroku, therefore it can take up to a minute to load ⏳,<br></br> thanks for your patience 🙂</h5>
           <div className="project-single-buttons">
             <button className="button3"><a className="project-link"
-              href="https://gael-duchesne-cocktail-mixer.netlify.app/" target="_blank" rel="noopener noreferrer">View website </a>
+              href="https://gael-duchesne-sprout-anywhere.herokuapp.com/" target="_blank" rel="noopener noreferrer">View website </a>
             </button>
             <button className="button3"><a className="project-link"
-              href="https://github.com/gael37/GA-SEI-P2-CocktailMixer" target="_blank" rel="noopener noreferrer">View code </a></button>
+              href="https://github.com/gael37/GA-SEI-P3-SproutAnywhere" target="_blank" rel="noopener noreferrer">View code </a></button>
             {/* <p className="subtext project-link2"><a className="project-link"
               href="https://github.com/gael37/GA-SEI-P2-CocktailMixer/blob/main/README.md" target="_blank" rel="noopener noreferrer">View ReadMe</a>
             </p> */}
