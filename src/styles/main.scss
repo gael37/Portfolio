@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-$dark-primary: rgb(41, 41, 41);
+// $dark-primary: rgb(41, 41, 41);
 $dark-secondary: #c8c8fa;
 
 $light-primary: #f5f5f5;
@@ -16,7 +16,17 @@ $tertiary: hwb(204 38% 6%);
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: rgb(41, 41, 41);
+  // background: rgb(41, 41, 41);
+  // background-color: rgb(24, 24, 24);
+  background-color: black;
+
+  // background: rgb(61, 61, 61);
+
+  // background-color: rgb(78, 121, 174);
+
+  // background: url('../assets/nice-blue.png');
+  // background-repeat: no-repeat;
+  // background-size: cover;
   color: white;
   height: calc(100vh - 80px);
 }
@@ -142,6 +152,10 @@ span {
     font-size: 1.5em;
     text-align: left;
   }
+}
+
+.about-h3-bottom {
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -393,7 +407,10 @@ span {
 }
 
 .button3 {
-  background-color: rgb(41, 41, 41);
+  // background: url('../assets/classic.png');
+  // background-color: rgb(24, 24, 24)
+  background-color: black;
+
   padding: 10px;
   border: 1px solid rgb(43, 162, 201);
   border-radius: 20px;
@@ -625,9 +642,14 @@ h5 {
   top: 120px;
   left: 150px;
   font-size: 4em;
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(24, 24, 24);
+
   border: none;
   margin: 0;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 
@@ -642,7 +664,7 @@ h5 {
     top: 90px;
     left: 20px;
     font-size: 2em;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(24, 24, 24);
     border: none;
     margin: 0;
   }
@@ -675,10 +697,17 @@ h5 {
 
   .project-single-title {
     width: 300px;
-    height: 350px;
+    height: 300px;
 
     h3 {
       font-size: 1.5em;
+    }
+
+    h5 {
+      font-size: 0.7em;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 15px;
     }
 
     h4 {
@@ -687,6 +716,9 @@ h5 {
 
     .button3 {
       padding-top: 5px;
+      margin-bottom: 0;
+      margin-top: 10px;
+      padding: 0;
 
       a {
         font-size: 0.7em;
@@ -699,8 +731,8 @@ h5 {
     // }
   }
 
-  .project-single-title {
-    height: 220px;
+  .project-single-title-p2 {
+    height: 230px;
   }
 
   .project-single-title2 {
@@ -734,4 +766,17 @@ h3 {
 
 .h2-top {
   padding-top: 30px;
+}
+
+.about-h3-bottom {
+  margin-top: 20px;
+}
+
+.button4 {
+  // background: url('../assets/classic.png');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-color: rgb(24, 24, 24);
+  background-color: black;
+
 }

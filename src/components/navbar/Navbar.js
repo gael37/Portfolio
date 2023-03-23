@@ -28,8 +28,8 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
           <div className='.navbar-container container nav-item'>
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <AiOutlineLaptop className="navbar-icon" />
+            <Link to="/" className="navbar-logo item-special" onClick={closeMobileMenu}>
+              <AiOutlineLaptop className="navbar-icon item-special" width='100px' />
               <span>gxd</span>
             </Link>
             <div className='menu-icon' onClick={handleClick}>

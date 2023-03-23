@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <>
       <section className="sub-section" id="about-me">
-        <h3>At work:</h3>
+        <h3 className='about-h3-bottom'>At work:</h3>
         {/* <div className='headshot-container'>
           <img className='headshot' src={headshot} alt='headshot'></img>
         </div> */}

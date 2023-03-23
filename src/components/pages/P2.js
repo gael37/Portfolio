@@ -18,7 +18,7 @@ function P4() {
   return (
     <>
       <div className="project-single-flex">
-        <div className='project-single-title'>
+        <div className='project-single-title project-single-title-p2'>
           <h3>COCKTAIL MIXER</h3>
           <br></br>
           <h4>React application</h4>
