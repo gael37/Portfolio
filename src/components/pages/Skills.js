@@ -56,7 +56,7 @@ function Skills() {
               <p>Express.js</p>
             </li>
 
-            <li><img src={mongoose} alt="Mongoose logo" width="100" />
+            <li><img src={mongoose} alt="Mongoose logo" height="100" width='98' />
               <p>Mongoose</p>
             </li>
             <li><img src={node} alt="Node logo" width="100" />
@@ -67,9 +67,6 @@ function Skills() {
             </li>
             <li><img src={sql} alt="PostgreSQL logo" width="100" />
               <p>PostgreSQL</p>
-            </li>
-            <li><img src={tableplus} alt="TablePlus logo" width="100" />
-              <p>TablePlus</p>
             </li>
           </ul>
 
@@ -83,6 +80,9 @@ function Skills() {
             </li>
             <li><img src={insomnia} alt="Insomnia logo" width="100" />
               <p>Insomnia</p>
+            </li>
+            <li><img src={tableplus} alt="TablePlus logo" width="100" />
+              <p>TablePlus</p>
             </li>
           </ul>
         </section>
