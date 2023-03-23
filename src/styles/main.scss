@@ -18,9 +18,7 @@ body {
   font-family: 'Poppins', sans-serif;
   // background: rgb(41, 41, 41);
   // background-color: rgb(24, 24, 24);
-  background-color: black;
-
-  // background: rgb(61, 61, 61);
+  background-color: #253f65;
 
   // background-color: rgb(78, 121, 174);
 
@@ -135,12 +133,12 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 100px;
   margin-top: 10px;
   align-items: left;
   height: calc(100vh - 96px);
   align-items: left;
-  text-align: left;
+  text-align: center;
 
   h3 {
     margin-bottom: 30px;
@@ -151,6 +149,7 @@ span {
   p {
     font-size: 1.5em;
     text-align: left;
+    text-align: center;
   }
 }
 
@@ -409,8 +408,7 @@ span {
 .button3 {
   // background: url('../assets/classic.png');
   // background-color: rgb(24, 24, 24)
-  background-color: black;
-
+  background-color: #253f65;
   padding: 10px;
   border: 1px solid rgb(43, 162, 201);
   border-radius: 20px;
@@ -642,7 +640,7 @@ h5 {
   top: 120px;
   left: 150px;
   font-size: 4em;
-  background-color: rgb(24, 24, 24);
+  background-color: #253f65;
 
   border: none;
   margin: 0;
@@ -777,6 +775,21 @@ h3 {
   // background-repeat: no-repeat;
   // background-size: cover;
   // background-color: rgb(24, 24, 24);
-  background-color: black;
+  background-color: #253f65;
 
+}
+
+@media only screen and (min-width: 1600px) {
+
+  .project-card {
+    width: 800px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    border-radius: 20px;
+
+    h3 {
+      margin-top: 20px;
+    }
+  }
 }
