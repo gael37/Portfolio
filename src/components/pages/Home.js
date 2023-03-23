@@ -13,7 +13,7 @@ function AboutMe() {
               <img className='developer' src={robot} alt='headshot' width='800px'></img>
             </div>
             <div className="information">
-              <p>Hi! I&apos;m <span>Gael</span>, a <span>junior developer</span>!</p>
+              <p>Hi! I&apos;m <span>Gael</span>, a <span>software developer</span>!</p>
               <br></br>
               <br></br>
               <p>I hope you&apos;re having an amazing day</p>
