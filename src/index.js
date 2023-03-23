@@ -20,6 +20,7 @@ import P4 from './components/pages/P4'
 import P3 from './components/pages/P3'
 import P2 from './components/pages/P2'
 import P1 from './components/pages/P1'
+import Interests from './components/pages/Interests'
 
 const AppLayout = () => {
   return (
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <Projects />
+      },
+      {
+        path: '/interests',
+        element: <Interests />
       },
       {
         path: '/contact',

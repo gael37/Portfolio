@@ -10,7 +10,7 @@
   /* background-color: rgb(78, 121, 174); */
   /* background-color: rgb(18, 17, 17);
   back */
-  background-color: #1d3251;
+  background-color: black;
   /* background: url('../../assets/classic3.png');
   background-repeat: no-repeat;
   background-size: cover; */
@@ -90,6 +90,7 @@
 
 .nav-links:hover {
   border-bottom: 2px solid #09bef0;
+  color: white;
 }
 
 .nav-links {
@@ -131,7 +132,7 @@
   }
 
   .nav-menu.active {
-    background: #19191a;
+    background: black;
     left: 0;
     opacity: 1;
     transition: all 0.6s ease;
