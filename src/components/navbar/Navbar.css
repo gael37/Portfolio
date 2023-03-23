@@ -129,12 +129,17 @@
     transition: all 0.5s ease;
   }
 
+  /* .nav-manu ul {
+    padding: 0;
+  } */
+
   .nav-menu.active {
     background: #19191a;
     left: 0;
     opacity: 1;
     transition: all 0.6s ease;
     z-index: 1;
+    /* margin-top: 10px; */
   }
 
   .nav-links {
