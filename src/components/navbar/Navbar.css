@@ -127,6 +127,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    align-items: center;
   }
 
   .nav-menu.active {
@@ -137,7 +138,7 @@
     z-index: 1;
     padding-bottom: 30px;
     margin-top: 0;
-    margin-left: -5px;
+    /* margin-left: -5px; */
   }
 
   .nav-links {
