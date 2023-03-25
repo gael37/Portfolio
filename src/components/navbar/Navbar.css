@@ -389,7 +389,7 @@
     height: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 90px;
+    margin-left: 120px;
   }
 
   .nav-flexo img {
@@ -402,6 +402,6 @@
 
   .menu-icon {
     margin-top: -7px;
-    translate: -10px;
+    translate: -5px;
   }
 }
