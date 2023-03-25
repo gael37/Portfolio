@@ -927,6 +927,11 @@ h5 {
     height: 110%;
   }
 
+  .flex-page {
+    margin: 0;
+    margin-left: 10px;
+  }
+
   #home {
     display: flex;
     flex-direction: column;
@@ -946,12 +951,14 @@ h5 {
     h3 {
       // margin-left: 10px;
       background: none;
+      font-size: 1em;
     }
 
     h4 {
       margin-top: 50px;
       // margin-left: 10px;
       background: none;
+      font-size: 0.8em;
     }
   }
 }
