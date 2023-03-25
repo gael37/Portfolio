@@ -1,27 +1,31 @@
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import robot from '../../assets/coding-boy.gif'
+import dev from '../../assets/dev-img.png'
 
-function AboutMe() {
+import { useState, useEffect } from 'react'
+
+import { getTheme } from '../helpers/Theme'
+
+function Home() {
+
+  const [BG, setBG] = useState('dark')
+  let theme = 'dark'
+
+  const timer = setInterval(() => {
+    theme = getTheme()
+    setBG(theme)
+  }, 50)
 
   return (
     <>
-      <body>
+      <body className={BG === 'dark' ? 'bg1' : 'bg2'}>
         <div className="flex-page">
-          <section className="sub-section" id="home">
-            <div className='headshot-container'>
-              <img className='developer' src={robot} alt='headshot' width='800px'></img>
-            </div>
-            <div className="information">
-              <p>Hi! I&apos;m <span>Gael</span>, a <span>software developer</span>!</p>
-              <br></br>
-              <br></br>
-              <p>I hope you&apos;re having an amazing day</p>
-              <br />
-              <br></br>
-              <p>Make yourself at ease while browsing through my portfolio!</p>
-            </div>
-            {/* <Link to='/projects' className='navbar-logo button'>Projects</button> */}
+          <section className={'sub-section ' + BG} id="home">
+            {/* <p>Hi!</p> */}
+            <h1 className={BG}>Gael Duchesne</h1>
+            <h3>Full Stack Software Developer</h3>
+            <h4>Welcome on my portfolio!</h4>
           </section>
         </div>
       </body>
@@ -31,6 +35,6 @@ function AboutMe() {
 }
 
 
-export default AboutMe
+export default Home
 
 

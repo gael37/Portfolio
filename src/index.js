@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/main.scss'
 import { RouterProvider } from 'react-router-dom'
 
+import { useState } from 'react'
 import React from 'react'
 
 import { BrowserRouter, Routes, Route, Outlet, createBrowserRouter } from 'react-router-dom'
@@ -23,6 +24,7 @@ import P1 from './components/pages/P1'
 import Interests from './components/pages/Interests'
 
 const AppLayout = () => {
+
   return (
     <>
       <Navbar />

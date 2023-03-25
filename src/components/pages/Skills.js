@@ -16,12 +16,23 @@ import sass from '../../assets/sass.png'
 import boot from '../../assets/bootstrap.png'
 import mongoose from '../../assets/mongoose.png'
 
+import { useState, useEffect } from 'react'
+
+import { getTheme } from '../helpers/Theme'
+
 function Skills() {
+  const [BG, setBG] = useState('dark')
+  let theme = 'dark'
+
+  const timer = setInterval(() => {
+    theme = getTheme()
+    setBG(theme)
+  }, 50)
 
   return (
     <>
       {/* <h2>Skills</h2> */}
-      <body>
+      <body className={'agrandi ' + BG}>
         <section className="skills" id="skills">
           <h2 className='h2-top'>Front-end</h2>
 
