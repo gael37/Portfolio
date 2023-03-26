@@ -28,7 +28,7 @@ function P3() {
 
   return (
     <>
-      <body className={'agrandi2 ' + BG}>
+      <body className={'agrandi2 agrandi8 ' + BG}>
 
         <div className={'project-single-flex ' + BG}>
           <div className='project-single-title'>

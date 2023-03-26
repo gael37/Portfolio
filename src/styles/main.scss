@@ -647,7 +647,7 @@ h5 {
 .project-single-title {
   h3 {
     text-decoration: none;
-    color: #09bef0;
+    // color: #09bef0;
     margin-top: 20px;
   }
 
@@ -668,7 +668,7 @@ h5 {
   font-size: 0.5em;
 
   h3 {
-    color: #09bef0;
+    // color: #09bef0;
     margin-bottom: 0;
   }
 
@@ -701,7 +701,7 @@ h5 {
   top: 120px;
   left: 150px;
   font-size: 4em;
-  background-color: #253f65;
+  // background-color: #253f65;
 
   border: none;
   margin: 0;
@@ -721,12 +721,14 @@ h5 {
   background: url('../assets/bg-style-black.png');
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 .bg2 {
   background: url('../assets/bg4.png');
   background-repeat: no-repeat;
   background-size: cover;
+  color: black;
 }
 
 .project-single-flex {
@@ -738,6 +740,41 @@ h5 {
   background-repeat: repeat;
   color: black;
 
+  h4 {
+    color: black;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  p {
+    color: black
+  }
+}
+
+.project-card {
+  // background-color: #406069;
+
+  p {
+    // color: white;
+    margin-top: 5px;
+    font-size: 1.8em;
+    align-self: flex-end;
+    margin-right: 30px;
+    font-style: italic;
+
+  }
+
+  h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    // color: white;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
 }
 
 .item-special {
@@ -777,7 +814,7 @@ h5 {
     top: 90px;
     left: 20px;
     font-size: 2em;
-    background-color: rgb(24, 24, 24);
+    // background-color: rgb(24, 24, 24);
     border: none;
     margin: 0;
   }
@@ -922,9 +959,25 @@ h5 {
     }
   }
 
+  .agrandi {
+    height: 180vh;
+  }
+
   .agrandi7 {
     padding-bottom: 50px;
-    height: 110%;
+    height: 84vh;
+  }
+
+  .agrandi8 {
+    height: 78vh;
+  }
+
+  .agrandi3 {
+    height: 78vh;
+  }
+
+  .agrandi9 {
+    height: 78vh;
   }
 
   .flex-page {
@@ -963,8 +1016,18 @@ h5 {
   }
 
   .agrandi4 {
-    height: 120vh;
+    height: 100vh;
   }
+
+  // .agrandi2 {
+  //   height: 20vh;
+  // }
+
+  .agrandi5 {
+    height: 98vh;
+  }
+
+
 }
 
 h3 {
@@ -984,7 +1047,7 @@ h3 {
   // background-repeat: no-repeat;
   // background-size: cover;
   // background-color: rgb(24, 24, 24);
-  background-color: black;
+  // background-color: black;
 
 }
 
@@ -1000,5 +1063,14 @@ h3 {
     h3 {
       margin-top: 20px;
     }
+  }
+}
+
+.button3 {
+  background-color: #1879cf;
+
+  a {
+    color: white;
+    padding: 0;
   }
 }

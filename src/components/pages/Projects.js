@@ -29,11 +29,12 @@ const Projects = () => {
             <Link to='/p4'>
               <div className="project-card">
                 <h3>SPARE SOCK</h3>
+                {/* <p>(16 Dec 2022)</p> */}
                 <br></br>
                 <h4>Full stack application</h4>
                 <h4>React.js - Sass - Django - PostgreSQL</h4>
                 <img className="project-image" src={p4} alt="Project One Image" width="800" height="" />
-
+                <p>16 Dec 2022</p>
               </div>
             </Link>
             <Link to='/p3'>
@@ -43,6 +44,8 @@ const Projects = () => {
                 <h4>Full stack application</h4>
                 <h4>React.js - Sass - Node.js - Express.js - MongoDB</h4>
                 <img className="project-image" src={p3} alt="Project One Image" width="600" height="" />
+                <p>25 Nov 2022</p>
+
 
               </div>
             </Link>
@@ -54,6 +57,8 @@ const Projects = () => {
                 <h4>React application</h4>
                 <h4>React.js - Sass - Express.js</h4>
                 <img className="project-image" src={p2} alt="Project One Image" width="800" height="" />
+                <p>4 Nov 2022</p>
+
 
               </div>
             </Link>
@@ -65,6 +70,8 @@ const Projects = () => {
                 <h4>Native JavaScript game</h4>
                 <h4>HTML5 - CSS3 - JavaScript</h4>
                 <img className="project-image" src={p1} alt="Project One Image" width="600" height="" />
+                <p>21 Oct 2022</p>
+
 
 
 

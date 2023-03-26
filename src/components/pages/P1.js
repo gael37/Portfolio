@@ -27,11 +27,11 @@ function P1() {
 
   return (
     <>
-      <body className={'agrandi2 ' + BG}>
+      <body className={'agrandi2 agrandi9 ' + BG}>
 
         <div className={'project-single-flex ' + BG}>
-          <div className='project-single-title project-single-title2'>
-            <h3>JUNGLE FROGGER</h3>
+          <div className={'project-single-title project-single-title2 ' + BG}>
+            <h3 className={BG}>JUNGLE FROGGER</h3>
             <br></br>
             <h4>Native JavaScript game</h4>
             <h4>HTML5 - CSS3 - JavaScript</h4>

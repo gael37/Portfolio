@@ -117,7 +117,7 @@
 }
 
 .activated {
-  color: #09bef0;
+  color: #1879cf;
 }
 
 .fa-bars {
@@ -186,11 +186,11 @@
 }
 
 .dark-color .activated {
-  color: rgb(47, 135, 164);
+  color: #1879cf;
 }
 
 .dark-color a:hover {
-  color: rgb(47, 135, 164);
+  color: #1879cf;
   transform: scale(1.2);
 }
 
@@ -263,24 +263,24 @@
 }
 
 .white-color .activated {
-  color: rgb(47, 135, 164);
+  color: #1879cf;
 }
 
 .white-color a:hover {
-  color: rgb(47, 135, 164);
+  color: #1879cf;
   transform: scale(1.2);
 }
 
 .white-color p:hover {
   background-color: black;
   transform: scale(1);
-  color: #09bef0;
+  color: #1879cf;
 }
 
 .dark-color p:hover {
   background-color: white;
   transform: scale(1);
-  color: #09bef0;
+  color: #1879cf;
 }
 
 .spec .show {
@@ -350,7 +350,7 @@
   }
 
   .nav-links:hover {
-    color: #09bef0;
+    color: #1879cf;
     transform: scale(1.2);
     transition: all 0.3s ease;
     border-bottom: none;

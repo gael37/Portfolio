@@ -34,7 +34,7 @@ function Skills() {
       {/* <h2>Skills</h2> */}
       <body className={'agrandi ' + BG}>
         <section className="skills" id="skills">
-          <h2 className='h2-top'>Front-end</h2>
+          <h2 className={'h2-top ' + BG}>Front-end</h2>
 
           <ul id="flex-wrap-logos">
             <li><img src={html} alt="HTML5 logo" width="100" />
@@ -54,7 +54,7 @@ function Skills() {
             </li>
           </ul>
 
-          <h2>Back-end</h2>
+          <h2 className={'h2-top ' + BG}>Back-end</h2>
           <ul id="flex-wrap-logos">
             <li><img src={python} alt="Python logo" width="100" />
               <p>Python</p>
@@ -81,7 +81,7 @@ function Skills() {
             </li>
           </ul>
 
-          <h2>Others</h2>
+          <h2 className={'h2-top ' + BG}>Others</h2>
           <ul id="flex-wrap-logos">
             <li><img src={git} alt="Git logo" width="100" />
               <p>Git</p>

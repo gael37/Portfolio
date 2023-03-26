@@ -15,6 +15,7 @@ function AboutMe() {
 
   return (
     <>
+
       <body className={'agrandi4 ' + BG}>
 
         <section className="sub-section" id="about-me">
