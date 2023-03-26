@@ -25,7 +25,7 @@ function Home() {
             {/* <p>Hi!</p> */}
             <h1 className={BG}>Gael Duchesne</h1>
             <h3>Full Stack Software Developer</h3>
-            <h4>Welcome on my portfolio!</h4>
+            <h4>Welcome to my portfolio!</h4>
           </section>
         </div>
       </body>
