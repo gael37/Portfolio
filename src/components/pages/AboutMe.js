@@ -1,4 +1,4 @@
-import headshot from '../../assets/headshot.png'
+import headshot from '../../assets/headshot3.png'
 import { useState, useEffect } from 'react'
 
 import { getTheme } from '../helpers/Theme'
