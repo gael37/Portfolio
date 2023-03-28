@@ -54,13 +54,13 @@ function P3() {
             <img className="project-image" src={p3} alt="Project One Image" width="600" height="" />
           </div>
           <div className={'project-single-info ' + BG}>
-            <p className={'subtext paragraph2 ' + BG}>Second project of General Assembly&apos;s software engineering course, we worked as a
-              pair in order to build a React application that consumes the public API
-              CocktailsDB, using
-              Express.js and Sass. I worked on the design and on React.js components including home page, cocktail
-              description page
-              and navigation
-              bar.
+            <p className={'subtext paragraph2 ' + BG}>Group project (3 people) of General Assembly&apos;s software engineering course where
+              we had one week to build a full-stack application using React.js, Node.js, Express.js and MongoDB. We
+              built a
+              responsive full stack e-commerce/blog application, with a reviews
+              functionality. On this project I worked on both the back-end
+              and the front-end, on the design and on components
+              including authentication, user profile and blog/product comment system.
             </p>
           </div>
         </div>
