@@ -41,7 +41,7 @@ function P4() {
               <button className={'button3 ' + BG}><a className="project-link" href="https://gd-spare-sock.herokuapp.com/"
                 target="_blank" rel="noopener noreferrer">View website</a>
               </button>
-              <button className={'button3 ' + BG}><a className="project-link" href="https://github.com/gael37/GA-P4-SpareSock"
+              <button className={'button3 ' + BG}><a className="project-link" href="https://github.com/gael37/Bootcamp-Project4-SpareSock"
                 target="_blank" rel="noopener noreferrer">View code </a></button>
               {/* <p className="subtext project-link2"><a className="project-link"
           href="https://github.com/gael37/GA-P4-SpareSock/blob/main/README.md" target="_blank" rel="noopener noreferrer">View

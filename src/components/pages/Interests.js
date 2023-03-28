@@ -18,7 +18,7 @@ function AboutMe() {
       <body className={'agrandi4 ' + BG}>
 
         <section className="sub-section" id="about-me">
-          <p className="paragraph3">🏀 Basketball: either playing casual or more serious games, it is a fun way for me to compete
+          <p className="paragraph3">🏀 Basketball: either playing casually or more serious games, it is a fun way for me to compete
             and connect with people.
           </p>
           <p className="paragraph3">🕹️ Video games: they enable me to evade and to have fun when I have some free time.</p>

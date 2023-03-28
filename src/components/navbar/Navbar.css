@@ -303,6 +303,12 @@
   margin-top: -10px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .navbar a {
+    font-size: 0.4em;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
