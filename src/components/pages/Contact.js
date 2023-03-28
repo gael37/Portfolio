@@ -1,5 +1,5 @@
 import lkn from '../../assets/linkedin-tile.svg'
-import github from '../../assets/github.svg'
+import github from '../../assets/github2.svg'
 import { useState, useEffect } from 'react'
 
 import { getTheme } from '../helpers/Theme'
