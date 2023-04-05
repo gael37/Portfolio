@@ -34,6 +34,7 @@ const Projects = () => {
                 <h4>Full stack application: e-commerce/messaging</h4>
                 <h4>React.js - Sass - Bootstrap - Django - PostgreSQL - Stripe</h4>
                 <img className="project-image" src={soon} alt="Coming soon" width="800" height="" />
+                <p>Individual project</p>
                 <p>In progress</p>
               </div>
             </div>
@@ -45,6 +46,7 @@ const Projects = () => {
                 <h4>Full stack application: ads platform/messaging</h4>
                 <h4>React.js - Sass - Django - PostgreSQL</h4>
                 <img className="project-image" src={p4} alt="Project One Image" width="800" height="" />
+                <p>Individual project</p>
                 <p>16 Dec 2022</p>
               </div>
             </Link>
@@ -55,6 +57,7 @@ const Projects = () => {
                 <h4>Full stack application: e-commerce/blog</h4>
                 <h4>React.js - Sass - Node.js - Express.js - MongoDB</h4>
                 <img className="project-image" src={p3} alt="Project One Image" width="600" height="" />
+                <p>Group project</p>
                 <p>25 Nov 2022</p>
               </div>
             </Link>
@@ -65,6 +68,7 @@ const Projects = () => {
                 <h4>React application: Cocktail generator from public API</h4>
                 <h4>React.js - Sass - Express.js</h4>
                 <img className="project-image" src={p2} alt="Project One Image" width="800" height="" />
+                <p>Pair project</p>
                 <p>4 Nov 2022</p>
 
 
@@ -78,6 +82,7 @@ const Projects = () => {
                 <h4>Native JavaScript game</h4>
                 <h4>HTML5 - CSS3 - JavaScript</h4>
                 <img className="project-image" src={p1} alt="Project One Image" width="600" height="" />
+                <p>Individual project</p>
                 <p>21 Oct 2022</p>
 
 
