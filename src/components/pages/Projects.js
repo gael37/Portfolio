@@ -2,6 +2,7 @@ import p1 from '../../assets/p1.png'
 import p2 from '../../assets/p2.png'
 import p3 from '../../assets/p3.png'
 import p4 from '../../assets/p4-shot.png'
+import soon from '../../assets/coming-soon.png'
 
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
@@ -26,12 +27,22 @@ const Projects = () => {
 
         <section className="sub-section-alternative" id="projects">
           <div className={'project-container ' + BG}>
+            <div className='project-incoming'>
+              <div className="project-card">
+                <h3>Emporium</h3>
+                <br></br>
+                <h4>Full stack application: e-commerce/messaging</h4>
+                <h4>React.js - Sass - Bootstrap - Django - PostgreSQL - Stripe</h4>
+                <img className="project-image" src={soon} alt="Coming soon" width="800" height="" />
+                <p>In progress</p>
+              </div>
+            </div>
             <Link to='/p4'>
               <div className="project-card">
                 <h3>SPARE SOCK</h3>
                 {/* <p>(16 Dec 2022)</p> */}
                 <br></br>
-                <h4>Full stack application</h4>
+                <h4>Full stack application: ads platform/messaging</h4>
                 <h4>React.js - Sass - Django - PostgreSQL</h4>
                 <img className="project-image" src={p4} alt="Project One Image" width="800" height="" />
                 <p>16 Dec 2022</p>
@@ -41,20 +52,17 @@ const Projects = () => {
               <div className="project-card">
                 <h3>SPROUT ANYWHERE</h3>
                 <br></br>
-                <h4>Full stack application</h4>
+                <h4>Full stack application: e-commerce/blog</h4>
                 <h4>React.js - Sass - Node.js - Express.js - MongoDB</h4>
                 <img className="project-image" src={p3} alt="Project One Image" width="600" height="" />
                 <p>25 Nov 2022</p>
-
-
               </div>
             </Link>
             <Link to='/p2'>
-
               <div className="project-card">
                 <h3>COCKTAIL MIXER</h3>
                 <br></br>
-                <h4>React application</h4>
+                <h4>React application: Cocktail generator from public API</h4>
                 <h4>React.js - Sass - Express.js</h4>
                 <img className="project-image" src={p2} alt="Project One Image" width="800" height="" />
                 <p>4 Nov 2022</p>
