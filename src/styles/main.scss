@@ -791,7 +791,12 @@ h5 {
   .project-card {
     width: 300px;
     height: 350px;
+    // padding: 20px;
 
+    h4 {
+      margin: 20px;
+      text-align: center;
+    }
 
     img {
       width: 200px;
