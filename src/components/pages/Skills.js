@@ -44,57 +44,57 @@ function Skills() {
 
           <h2 className={'h2-top ' + BG}>Frameworks</h2>
           <ul id="flex-wrap-logos">
-            <li><img src={next} alt="Next.js" width="100" />
+            <li><img src={next} alt="Next.js" width="100" height="100" className='center-image' />
               <p>Next.js</p>
             </li>
-            <li><img src={react} alt="React logo" width="100" />
+            <li><img src={react} alt="React logo" width="100" height="100" />
               <p>React.js</p>
             </li>
-            <li><img src={node} alt="Node logo" width="100" />
+            <li><img src={node} alt="Node logo" width="100" height="100" />
               <p>Node.js + Express</p>
             </li>
-            <li><img src={django} alt="Django logo" width="100" />
+            <li><img src={django} alt="Django logo" width="100" height="100" />
               <p>Django</p>
             </li>
           </ul>
 
           <h2 className={'h2-top ' + BG}>Programming Languages</h2>
           <ul id="flex-wrap-logos">
-            <li><img src={html} alt="HTML5 logo" width="100" />
+            <li><img src={html} alt="HTML5 logo" width="100" height="100" />
               <p>HTML 5</p>
             </li>
-            <li><img src={css} alt="CSS logo" width="100" />
+            <li><img src={css} alt="CSS logo" width="100" height="100" />
               <p>CSS 3</p>
             </li>
-            <li><img src={js} alt="JavaScript logo" width="100" />
+            <li><img src={js} alt="JavaScript logo" width="100" height="100" />
               <p>JavaScript</p>
             </li>
-            <li><img src={typescript} alt="TypeScript logo" width="100" />
+            <li><img src={typescript} alt="TypeScript logo" width="100" height="100" />
               <p>TypeScript</p>
             </li>
-            <li><img src={python} alt="Python logo" width="100" />
+            <li><img src={python} alt="Python logo" width="100" height="100" />
               <p>Python</p>
             </li>
           </ul>
 
           <h2 className={'h2-top ' + BG}>Database Engines / ORMs</h2>
           <ul id="flex-wrap-logos">
-            {/* <li><img src={express} alt="Express.js logo" width="100" />
+            {/* <li><img src={express} alt="Express.js logo" width="100" height="100" />
               <p>Express.js</p>
             </li> */}
-            <li><img src={mongo} alt="MongoDB logo" width="100" />
+            <li><img src={mongo} alt="MongoDB logo" width="100" height="100" />
               <p>MongoDB</p>
             </li>
             <li><img src={mongoose} alt="Mongoose logo" height="100" width='98' />
               <p>Mongoose</p>
             </li>
-            <li><img src={sql} alt="PostgreSQL logo" width="100" />
+            <li><img src={sql} alt="PostgreSQL logo" width="100" height="100" />
               <p>PostgreSQL</p>
             </li>
-            <li><img src={mysql} alt="MySQL logo" width="100" />
+            <li><img src={mysql} alt="MySQL logo" width="100" height="100" />
               <p>MySQL</p>
             </li>
-            <li><img src={prisma} alt="Prisma logo" width="100" />
+            <li><img src={prisma} alt="Prisma logo" width="100" height="100" />
               <p>Prisma</p>
             </li>
 
@@ -102,29 +102,29 @@ function Skills() {
 
           <h2 className={'h2-top ' + BG}>Others</h2>
           <ul id="flex-wrap-logos">
-            <li><img src={git} alt="Git logo" width="100" />
+            <li><img src={git} alt="Git logo" width="100" height="100" />
               <p>Git</p>
             </li>
-            <li><img src={github} alt="Github logo" width="100" />
+            <li><img src={github} alt="Github logo" width="100" height="100" />
               <p>GitHub</p>
             </li>
-            <li><img src={sass} alt="Sass logo" width="100" height />
+            <li><img src={sass} alt="Sass logo" width="100" height="100" />
               <p>Sass</p>
             </li>
-            <li><img src={tailwind} alt="Tailwind" width="100" height />
+            <li><img src={tailwind} alt="Tailwind" width="100" height="100" />
               <p>Tailwind</p>
             </li>
-            <li><img src={radix} alt="Radix UI" width="100" height />
+            <li><img src={radix} alt="Radix UI" width="100" height="100" />
               <p>Radix UI</p>
             </li>
-            <li><img src={bootstrap} alt="Bootstrap" width="100" height />
+            <li><img src={bootstrap} alt="Bootstrap" width="100" height="100" />
               <p>Bootstrap</p>
             </li>
 
-            {/* <li><img src={insomnia} alt="Insomnia logo" width="100" />
+            {/* <li><img src={insomnia} alt="Insomnia logo" width="100" height="100" />
               <p>Insomnia</p>
             </li>
-            <li><img src={tableplus} alt="TablePlus logo" width="100" />
+            <li><img src={tableplus} alt="TablePlus logo" width="100" height="100" />
               <p>TablePlus</p>
             </li> */}
           </ul>
