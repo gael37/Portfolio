@@ -53,7 +53,7 @@ function P4() {
 
 
           <div className='project-single-image'>
-            <img className="project-image" src={emp} alt="Project One Image" width="800" height="" />
+            <img className="project-image" src={p6} alt="Project One Image" width="800" height="" />
           </div>
           <div className={'project-single-info ' + BG}>
             <p className={'subtext paragraph2 ' + BG}>I built a web app called Issue Tracker using <span>Next.js with TypeScript, Prisma and MySQL</span>, deployed on Vercel.
