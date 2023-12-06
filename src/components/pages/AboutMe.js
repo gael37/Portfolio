@@ -13,12 +13,9 @@ function AboutMe() {
     setBG(theme)
   }, 50)
 
-
   return (
     <>
-
       <body className={'agrandi4 ' + BG}>
-
         <section className="sub-section" id="about-me">
           <div className="about-p">
             <p>Hello, my name is Gael Duchesne, I am a passionate software engineer who loves learning new things, solving problems and aiming for development and mentorship.</p><br></br>

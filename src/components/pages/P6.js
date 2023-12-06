@@ -3,6 +3,7 @@ import p2 from '../../assets/p2.png'
 import p3 from '../../assets/p3.png'
 import p4 from '../../assets/p4-shot.png'
 import emp from '../../assets/emp-pic.png'
+import p6 from '../../assets/sc-shot-issue-t.png'
 import videoTest from '../../assets/emp-test2.mp4'
 import { useNavigate } from 'react-router-dom'
 
@@ -34,16 +35,15 @@ function P4() {
 
         <div className={'project-single-flex ' + BG}>
           <div className='project-single-title'>
-            <h3>EMPORIUM</h3>
+            <h3>ISSUE TRACKER</h3>
             <br></br>
             <h4>Full stack application</h4>
-            <h4>React.js - Sass - Django - PostgreSQL - Stripe</h4>
-            <h5>Note: this project is hosted via Heroku, therefore it can take up to a minute to load ⏳,<br></br> thanks for your patience 🙂</h5>
+            <h4>Next.js - TypeScript - Prisma - MySQL - Tailwind - Radix UI</h4>
             <div className="project-single-buttons">
-              <button className={'button3 ' + BG}><a className="project-link" href="https://emporium.herokuapp.com/"
+              <button className={'button3 ' + BG}><a className="project-link" href="https://www.issue-tracker-gd.com/"
                 target="_blank" rel="noopener noreferrer">View website</a>
               </button>
-              <button className={'button3 ' + BG}><a className="project-link" href="https://github.com/gael37/Emporium"
+              <button className={'button3 ' + BG}><a className="project-link" href="https://github.com/gael37/issue-tracker"
                 target="_blank" rel="noopener noreferrer">View code </a></button>
               {/* <p className="subtext project-link2"><a className="project-link"
           href="https://github.com/gael37/GA-P4-SpareSock/blob/main/README.md" target="_blank" rel="noopener noreferrer">View
@@ -56,9 +56,8 @@ function P4() {
             <img className="project-image" src={emp} alt="Project One Image" width="800" height="" />
           </div>
           <div className={'project-single-info ' + BG}>
-            <p className={'subtext paragraph2 ' + BG}>My first personal project post-bootcamp, a humble mini-version of Amazon. It uses a <span>React</span> frontend with a <span>Django</span> backend and a <span>PostgreSQL</span> database.
-              The user can buy and sell products, change their delivery adress, add products to their wishlist as well as post product reviews.
-              They can also proceed to payments using <span>Stripe</span>.
+            <p className={'subtext paragraph2 ' + BG}>I built a web app called Issue Tracker using <span>Next.js with TypeScript, Prisma and MySQL</span>, deployed on Vercel.
+              This app enables a team to work on issues by creating, updating, deleting, assigning issues and viewing statistics on issue handling.
             </p>
           </div>
         </div>

@@ -2,6 +2,7 @@ import p1 from '../../assets/p1.png'
 import p2 from '../../assets/p2.png'
 import p3 from '../../assets/p3.png'
 import p4 from '../../assets/p4-shot.png'
+import p6 from '../../assets/sc-shot-issue-t.png'
 import soon from '../../assets/coming-soon.png'
 import emp from '../../assets/emp-pic.png'
 
@@ -28,15 +29,26 @@ const Projects = () => {
 
         <section className="sub-section-alternative" id="projects">
           <div className={'project-container ' + BG}>
+            <Link to='/p6'>
+              <div className="project-card">
+                <h3>Issue Tracker</h3>
+                <br></br>
+                <h4>Full stack application for issue handling</h4>
+                <h4>Next.js - TypeScript - Prisma - MySQL - Tailwind - Radix UI</h4>
+                <img className="project-image" src={p6} alt="Issue Tracker" width="800" height="" />
+                <p>Individual project</p>
+                <p>01 Dec 2023</p>
+              </div>
+            </Link>
             <Link to='/p5'>
               <div className="project-card">
                 <h3>Emporium</h3>
                 <br></br>
                 <h4>Full stack application: e-commerce</h4>
                 <h4>React.js - Sass - Bootstrap - Django - PostgreSQL - Stripe</h4>
-                <img className="project-image" src={emp} alt="Coming soon" width="800" height="" />
+                <img className="project-image" src={emp} alt="Emporium" width="800" height="" />
                 <p>Individual project</p>
-                <p>23 may 2023</p>
+                <p>23 May 2023</p>
               </div>
             </Link>
             <Link to='/p4'>
