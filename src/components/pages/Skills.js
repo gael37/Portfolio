@@ -50,7 +50,7 @@ function Skills() {
             <li><img src={react} alt="React logo" width="100" height="100" />
               <p>React.js</p>
             </li>
-            <li><img src={node} alt="Node logo" width="100" height="100" />
+            <li><img src={node} alt="Node logo" width="100" height="100" className='center-image' />
               <p>Node.js + Express</p>
             </li>
             <li><img src={django} alt="Django logo" width="100" height="100" />
