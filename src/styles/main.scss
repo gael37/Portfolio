@@ -232,8 +232,11 @@ span {
   font-size: 0.9em;
 }
 
-.center-image {
-  margin: 0 auto;
+.flex-skill-li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
 }
 
 .project-container {
