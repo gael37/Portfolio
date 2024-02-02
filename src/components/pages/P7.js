@@ -5,6 +5,7 @@ import p4 from '../../assets/p4-shot.png'
 import emp from '../../assets/emp-pic.png'
 import p6 from '../../assets/sc-shot-issue-t.png'
 import videoTest from '../../assets/emp-test2.mp4'
+import gameHub from '../../assets/game-hub.png'
 import { useNavigate } from 'react-router-dom'
 
 
@@ -13,7 +14,7 @@ import { useState, useEffect } from 'react'
 
 import { getTheme } from '../helpers/Theme'
 
-function P6() {
+function P7() {
 
   const navigate = useNavigate()
 
@@ -35,15 +36,15 @@ function P6() {
 
         <div className={'project-single-flex ' + BG}>
           <div className='project-single-title'>
-            <h3>ISSUE TRACKER</h3>
+            <h3>GAME HUB</h3>
             <br></br>
-            <h4>Full stack application</h4>
-            <h4>Next.js - TypeScript - Prisma - MySQL - Tailwind - Radix UI</h4>
+            <h4>Front-end React.js application</h4>
+            <h4>React.js - TypeScript - ChakraUI</h4>
             <div className="project-single-buttons">
-              <button className={'button3 ' + BG}><a className="project-link" href="https://www.issue-tracker-gd.com/"
+              <button className={'button3 ' + BG}><a className="project-link" href="https://video-game-hub-gaels-projects-02e85a54.vercel.app/"
                 target="_blank" rel="noopener noreferrer">View website</a>
               </button>
-              <button className={'button3 ' + BG}><a className="project-link" href="https://github.com/gael37/issue-tracker"
+              <button className={'button3 ' + BG}><a className="project-link" href="https://github.com/gael37/game-hub"
                 target="_blank" rel="noopener noreferrer">View code </a></button>
               {/* <p className="subtext project-link2"><a className="project-link"
           href="https://github.com/gael37/GA-P4-SpareSock/blob/main/README.md" target="_blank" rel="noopener noreferrer">View
@@ -53,11 +54,12 @@ function P6() {
 
 
           <div className='project-single-image'>
-            <img className="project-image" src={p6} alt="Project One Image" width="800" height="" />
+            <img className="project-image" src={gameHub} alt="Project One Image" width="800" height="" />
           </div>
           <div className={'project-single-info ' + BG}>
-            <p className={'subtext paragraph2 ' + BG}>I built a web app called Issue Tracker using <span>Next.js with TypeScript, Prisma and MySQL</span>, deployed on Vercel.
-              This app enables a team to work on issues by creating, updating, deleting, assigning issues and viewing statistics on issue handling.
+            <p className={'subtext paragraph2 ' + BG}>I built a web app called Game Hub using <span>React.js with TypeScript and ChakraUI</span>, deployed on Vercel.
+              This app consumes Rawg API for displaying video games, with a few filters. When clicking on the game cards, the user has access to a more detailed description of the video game with a video trailer, if available.
+              During this project, I emphasized my work on writing clean code and reusable components, applying software design principles such as single responsibility and dependency inversion.
             </p>
           </div>
         </div>
@@ -71,4 +73,4 @@ function P6() {
 }
 
 
-export default P6
+export default P7

@@ -12,7 +12,7 @@ import { useState, useEffect } from 'react'
 
 import { getTheme } from '../helpers/Theme'
 
-function P4() {
+function P5() {
 
   const navigate = useNavigate()
 
@@ -72,4 +72,4 @@ function P4() {
 }
 
 
-export default P4
+export default P5
