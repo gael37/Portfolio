@@ -1,3 +1,4 @@
+import aws from '../../assets/aws-logo.png'
 import html from '../../assets/html5.png'
 import css from '../../assets/css-3.png'
 import js from '../../assets/js.png'
@@ -102,6 +103,9 @@ function Skills() {
 
           <h2 className={'h2-top ' + BG}>Others</h2>
           <ul id="flex-wrap-logos">
+            <li className='flex-skill-li'><img src={aws} alt="AWS logo" width="100" height="100" />
+              <p>AWS</p>
+            </li>
             <li className='flex-skill-li'><img src={git} alt="Git logo" width="100" height="100" />
               <p>Git</p>
             </li>
