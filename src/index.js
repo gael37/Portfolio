@@ -17,6 +17,8 @@ import Projects from './components/pages/Projects'
 import Navbar from './components/navbar/Navbar'
 import AboutMe from './components/pages/AboutMe'
 import SignIn from './components/pages/Sign In'
+import P9 from './components/pages/P9'
+import P8 from './components/pages/P8'
 import P7 from './components/pages/P7'
 import P6 from './components/pages/P6'
 import P5 from './components/pages/P5'
@@ -63,6 +65,14 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/p9',
+        element: <P9 />
+      },
+      {
+        path: '/p8',
+        element: <P8 />
       },
       {
         path: '/p7',

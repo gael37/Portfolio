@@ -3,6 +3,8 @@ import p2 from '../../assets/p2.png'
 import p3 from '../../assets/p3.png'
 import p4 from '../../assets/p4-shot.png'
 import p6 from '../../assets/sc-shot-issue-t.png'
+import p8 from '../../assets/aistorebuilder-shot.png'
+import p9 from '../../assets/peeksta-shot.png'
 import soon from '../../assets/coming-soon.png'
 import emp from '../../assets/emp-pic.png'
 import gameHub from '../../assets/game-hub.png'
@@ -54,6 +56,28 @@ const Projects = () => {
       <body className={BG}>
         <section className="sub-section-alternative" id="projects">
           <div className={'project-container ' + BG}>
+            <Link to='/p9'>
+              <div className="project-card">
+                <h3>Peeksta</h3>
+                <br></br>
+                <h4><strong>Full stack application for tracking ads</strong></h4>
+                <span>Next.js - Django - PostgreSQL</span>
+                <img className="project-image" src={p9} alt="peeksta" width="800" height="" />
+                <p>Professional team project</p>
+                <p>26 September 2024</p>
+              </div>
+            </Link>
+            <Link to='/p8'>
+              <div className="project-card">
+                <h3>AI Store Builder</h3>
+                <br></br>
+                <h4><strong>Full stack application for creating AI Shopify stores</strong></h4>
+                <span>React.js - Django</span>
+                <img className="project-image" src={p8} alt="AI Store Builder" width="800" height="" />
+                <p>Professional team project</p>
+                <p>01 July 2024</p>
+              </div>
+            </Link>
             <Link to='/p7'>
               <div className="project-card">
                 <h3>Game Hub</h3>

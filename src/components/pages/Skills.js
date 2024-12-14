@@ -133,8 +133,6 @@ function Skills() {
             </li> */}
           </ul>
         </section>
-        <br />
-        <br />
       </body>
     </>
   )
